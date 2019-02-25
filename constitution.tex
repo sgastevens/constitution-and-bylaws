@@ -1,0 +1,258 @@
+\documentclass[12pt,oneside]{scrreprt}
+\usepackage{tocloft}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{lineno}
+\usepackage{hyperref}
+\usepackage{verbatim}
+\usepackage{graphicx}
+
+\setcounter{tocdepth}{1} %Adjust to change what level headings are shown in table of contents
+\setcounter{secnumdepth}{5}
+
+\newcommand{\doublesignature}[3]{%
+  \parbox{\textwidth}{
+  	\vspace{1cm}
+    \centering #3
+	\vspace{1cm}
+
+    \parbox{7cm}{
+      \centering
+      \rule{6cm}{1pt}\\
+       #1 
+    }
+    \hfill
+    \parbox{7cm}{
+      \centering
+      \rule{6cm}{1pt}\\
+      #2
+    }
+  }
+}
+
+%Setup display of section headings in article
+\renewcommand\thechapter{Article \Roman{chapter}}
+\renewcommand\thesection{Section \arabic{chapter}.\arabic{section}}
+\renewcommand\thesubsection{\Alph{subsection}}
+\renewcommand\thesubsubsection{\alph{subsubsection}}
+\renewcommand\theparagraph{\arabic{paragraph}}
+\renewcommand\thesubparagraph{\alph{subparagraph}}
+
+%Setup display of section headings in references and table-of-contents
+\makeatletter
+\renewcommand{\p@chapter}{Article \Roman{chapter}\expandafter\@gobble}
+\renewcommand{\p@section}{Section \arabic{chapter}.\arabic{section}\expandafter\@gobble}
+\renewcommand{\p@subsection}{Section \arabic{chapter}.\arabic{section}(\Alph{subsection})\expandafter\@gobble}
+\renewcommand{\p@subsubsection}{Section \arabic{chapter}.\arabic{section}(\Alph{subsection})-\alph{subsubsection}\expandafter\@gobble}
+\renewcommand{\p@paragraph}{Section \arabic{chapter}.\arabic{section}(\Alph{subsection})-\alph{subsubsection}.\arabic{paragraph}\expandafter\@gobble}
+\renewcommand{\p@subparagraph}{Section \arabic{chapter}.\arabic{section}(\Alph{subsection})-\alph{subsubsection}.\arabic{paragraph}.\alph{subparagraph}\expandafter\@gobble}
+\makeatother
+
+%Setup padding for headings in table-of-contents
+\setlength{\cftchapnumwidth}{6em}
+\setlength{\cftsecnumwidth}{6em}
+\setlength{\cftsubsecnumwidth}{1.8em}
+\setlength{\cftsubsubsecnumwidth}{1.8em}
+\setlength{\cftparanumwidth}{1.8em}
+\setlength{\cftsubparanumwidth}{1.8em}
+
+%Setup coloring for references and table-of-contents
+\hypersetup{
+  colorlinks=true,
+  citecolor=blue,
+  filecolor=blue,
+  linkcolor=blue,
+  urlcolor=blue, 
+  pdfborder={0 0 0}
+}
+
+\begin{document}
+\title{The Constitution of the \\ Student Government Association of \\ Stevens Institute of Technology}
+\date{Effective 2018-01-17}
+\maketitle
+
+%start displaying line numbers9
+\modulolinenumbers[1]
+\linenumbers
+
+We, the undergraduate students of Stevens Institute of Technology, in order to provide ourselves with a representative system of governance, promote student-centricity at this Institute, and establish formal channels of communication between ourselves and the administration of this Institute, do hereby adopt the following constitution. \textit{Per Aspera Ad Astra}.
+
+\chapter{The Student Government Association}
+There shall be an organization named the Student Government Association of Stevens Institute of Technology, herein referred to as the ``SGA.'' The SGA shall promote the welfare of the enrolled undergraduate students of Stevens Institute of Technology, herein referred to as the ``Student Body,'' and Stevens Institute of Technology, herein referred to as the ``Institute,'' as a whole. The SGA shall govern the Student Body and represent its interests.
+
+All members of the Student Body shall be considered members of the SGA. All members of the Student Body who have been elected or appointed to positions of the SGA shall be called ``Officials of the SGA.'' Only members of the Student Body shall be eligible for these positions. No member of the Student Body with a cumulative Grade Point Average of less than a 2.5 shall seek, be appointed to, or maintain a position of the SGA. Unless specified otherwise, no member of the Student Body shall hold more than one of the positions of the SGA defined herein.
+
+All members of the Student Body shall pay a Student Activity Fee to the Institute as determined by the Institute in conjunction with the SGA, which shall be delegated to the SGA for allocation. The Student Activity Fee shall fall equally on each member of the Student Body each semester. The SGA shall have the power, within its own means, to recommend a change in the amount of the Student Activity Fee.
+
+\chapter{The Legislative Branch}
+There shall be a Senate of the Student Government Association, a deliberative assembly whose membership, powers, and responsibilities are defined herein. Senators shall be responsible for and have a duty to represent the interests of their respective constituents. Senators shall function as equals and have no authority over one another except in the positions outlined in the governing documents of the SGA.
+
+\section{Membership}
+The Senate shall consist of a number of Senators from every Class of students, who shall be elected for a term coinciding with each session of the Senate, or until the end of the current session of the Senate if elected in a vacancy election. The term ``Class,'' shall be defined by the Office of the Registrar.
+
+Each Class shall have one Senate seat for every twenty-five (25) students, up to and including the first one hundred (100) students, and one additional Senate seat for every additional one hundred (100) students. Should a Class consist of fewer than twenty-five (25) students, it shall have one Senate seat. The number of Senate seats for a Class shall be re-calculated as students transfer into or out of the Institute.
+
+\section{Elections}
+Senators for each Class shall be elected by secret ballot by the students in that Class using a plurality-at-large voting system. Each year, an election period of one week shall be held within the last two weeks of April during which ballots will be accepted. An election period of the same specification shall be held within the first two weeks of October for the Class that most recently entered the Institute.
+
+In the event of a Senator's resignation or a vacancy of a Senate seat, a vacancy election shall be held. A vacancy election must begin no later than two weeks after the receipt of a Senator's resignation or the start of a vacancy, and must last for three days.
+
+\section{Sessions of the Senate}
+The session of a particular Senate shall begin at the conclusion of the Senate meeting following the aforementioned election period held within the last two weeks of April, and end at the start of the next session of the Senate. A session of the Senate shall be defined separately from the Senate's parliamentary session.
+
+Each session of the Senate shall be numbered, beginning with the first session of the Student Council in April 1913. The Senate of the 2017-2018 academic year shall be the one hundred and fourth (104th) Senate.
+
+\section{Reduced and Full Session}
+During any period in which either classes are not to be held for more than one week or less than half of the Student Body is enrolled in classes, and the Senate is not in recess, the Senate shall be considered to be ``in reduced session.'' Attendance at any Senate meeting shall not be mandatory while the Senate is in reduced session.
+
+The Senate shall be considered ``in full session,'' or simply ``in session,'' at any time that it is neither in recess nor reduced session.
+
+\section{Meetings}
+The Senate shall meet at least once each week while it is in session, as well as at the request of the President. Any Senate meeting must either be regularly scheduled as resolved by the Senate, or announced at least three days prior by the Secretary, except for meetings held at the request of the President. A two-thirds majority of Senators shall constitute quorum of the Senate.
+
+Senate meetings shall be open to the Student Body. The minutes of Senate meetings shall be made publicly available to the Student Body.
+
+\section{Powers and Responsibilities}
+The Senate shall have the authority to grant the status of Recognized Student Organization to any organization that petitions the Senate for recognition whose constitution does not conflict with the governing documents of the SGA and declared purpose is not indistinguishable from the purpose of any existing Recognized Student Organization, as determined by the Senate.
+
+The Senate shall have the power to revoke the status of a Recognized Student Organization that has either failed to appropriately manage its funding or does not comply with its own constitution, the governing documents of the SGA, Institute policy, or any applicable local, state, or federal laws. 
+
+The Senate shall elect a Speaker to chair meetings of the Senate, who may or may not be a Senator, using secret ballot and a plurality voting system. In the circumstance that a Senator is elected as Speaker, they shall abstain from voting on any business unless the Senate is equally divided or when not presiding in cases of impeachment trials.
+
+The Senate shall have the authority to override Presidential vetoes by way of a two-thirds vote. Furthermore, the Senate shall have the authority to overturn the Vice-President of Operations' decision to form an ad-hoc committee by way of a two-thirds vote.
+
+The Senate shall have the authority to try all impeachments of Officials of the SGA. An Official of the SGA shall be found responsible of a charge levied by way of a three-fourths vote.
+
+The Senate shall have the authority to form its own standing and ad-hoc committees whose membership may include any member of the Student Body. A standing committee must have its definition specified in the Bylaws. 
+
+The Senate shall have the authority to approve Cabinet appointments by way of a two-thirds vote.
+
+The Senate shall have the authority to declare, due to circumstances in which holding regular meetings and conducting business are not viable, a period in which it shall be considered ``in recess,'' by way of a two-thirds vote. While in recess, no business may be conducted nor meetings held by the Senate, except that a meeting may be held to consider a resolution to come back from recess ahead of schedule. The Senate may not declare itself in recess for a period which outlasts the current session of the Senate.
+
+\chapter{The Executive Branch}
+There shall be a President of the SGA, who shall act as the official representative of the Student Body, and a Cabinet of the SGA, an administrative body which shall be responsible for performing duties assigned by the President relevant to its positions. The President and Cabinet shall have the responsibility to promote the welfare of the Student Body by administrative means.
+
+\section{Membership}
+The Executive Branch shall consist of the President and the Cabinet. The Cabinet shall consist of the Vice-President of Operations, Vice-President of Academic Affairs, Vice-President of Finance, Vice-President of Student Interests, and Secretary. 
+
+Neither the President nor any member of the Cabinet, with the exception of the Secretary, shall hold an officer position in any other formally constituted campus organization. No person who has not been enrolled at least two consecutive semesters at the Institute shall be President or Vice-President of Operations.
+
+\section{Elections and Appointments}
+The President and Vice-President of Operations shall be elected together on a single ticket by the Student Body using secret ballot and a plurality voting system. Every year, an election period beginning within the first week of November and lasting one week shall be held, during which ballots will be accepted. The winning ticket shall be announced by the Secretary at the first Senate meeting following the election. In the case of a tie between the tickets which receive the greatest number of votes, the Senate shall choose from among those tickets using secret ballot and a plurality voting system. The President-elect shall make an appointment to each Cabinet position, with the exception of Vice-President of Operations, between being notified of the results of the Presidential election and taking office.
+
+The President and Cabinet shall assume office at 1:00 PM EST on the first Wednesday of classes of the spring semester following the Presidential election.
+
+\section{Meetings}
+The Cabinet shall meet at least once each week while the Senate is in session, as well as at the request of the President. The President shall act as the chair of these meetings.
+
+\section{Line of Succession and Vacancies}
+In the event of a vacancy of the position of President, the Vice-President of Operations shall assume the position of President, and the Speaker shall assume the position of Vice-President of Operations pending the election of a new Speaker. In the event of a vacancy of the position of Vice-President of Operations, the Speaker shall assume the position of Vice-President of Operations pending the election of a new Speaker. In the event of a vacancy of a Cabinet position other than Vice-President of Operations, the President shall make a new appointment to the vacant Cabinet position.
+
+\section{President}
+The President shall have the responsibility to act as the official representative of the Student Body.
+
+The President shall have the responsibility to sign or veto bills and proclamations passed by the Senate. A veto may only be done if the President states the reasons for the veto in written form and makes them available to the Senate within three days after the bill or proclamation in question has been passed. Presidential vetoes may be overridden by way of a two-thirds vote of the Senate. Failure by the President to sign a bill or proclamation passed by the Senate shall never be considered an implicit veto.
+
+The President shall have the authority to act as the chair of meetings of the Cabinet. The President shall have the authority to call unscheduled meetings of the Cabinet in the case of an emergency.
+
+The President shall have the authority to call unscheduled meetings of the Senate in the case of an emergency, except when the Senate is in recess.
+
+The President shall have the authority to appoint a Parliamentarian, who shall be approved by way of a two-thirds vote of the Senate.
+
+\section{Vice-President of Operations}
+The Vice-President of Operations shall have the responsibility to perform all duties of the President in the absence of the latter.
+
+The Vice-President of Operations shall have the responsibility to act as the liaison between the Senate and the Cabinet.
+
+The Vice-President of Operations shall have the authority to appoint the chairs of all standing and ad-hoc committees of the Senate, which shall be approved by way of a two-thirds vote of the Senate, with the exception of standing and ad-hoc committees which have an otherwise specified chair in the governing documents of the SGA.
+
+The Vice-President of Operations shall have the authority to form ad-hoc committees of the Senate. The Vice-President of Operations' decision to form an ad-hoc committee may be overturned by way of a two-thirds vote of the Senate.
+
+The Vice-President of Operations shall have the responsibility to oversee the activities of all standing and ad-hoc committees of the Senate.
+
+The Vice-President of Operations shall have the responsibility to chair all impeachment trials, except those involving the President or Vice-President of Operations. When the President or Vice-President of Operations is tried, the Parliamentarian shall preside.
+
+\section{Vice-President Of Academic Affairs}
+The Vice-President of Academic Affairs shall have the responsibility to oversee the activities of all standing and ad-hoc committees of the Senate tasked with improving the Institute's academics.
+
+The Vice-President of Academic Affairs shall have the responsibility to act as a
+liaison between the SGA and the Institute's faculty.
+
+The Vice-President of Academic Affairs shall attend, or send in place a representative to, meetings of the Faculty Senate and the Student Advisory Board.
+
+\section{Vice-President of Finance}
+The Vice-President of Finance shall have the responsibility to act as a liaison between the SGA, Office of Student Life, and Office of Finance regarding any financial issues surrounding the SGA or Recognized Student Organizations.
+
+The Vice-President of Finance shall have the responsibility to manage all financial
+transactions and records of the SGA.
+
+The Vice-President of Finance shall have the responsibility to act as the chair of the
+Senate Budget Committee.
+
+The Vice-President of Finance shall have the responsibility to oversee all expenditures
+made by standing and ad-hoc committees of the Senate.
+
+\section{Vice-President of Student Interests}
+The Vice-President of Student Interests shall have the responsibility to act as the chair of the Committee on Student Interests.
+
+The Vice-President of Student Interests shall have the responsibility to act as the liaison between all Recognized Student Organizations and the SGA.
+
+The Vice-President of Student Interests shall have the responsibility to aid in the
+formation of new Recognized Student Organizations.
+
+\section{Secretary}
+The Secretary shall have the responsibility to record minutes of all meetings of the Senate and the Cabinet.
+
+The Secretary shall have the responsibility to act as the chair of the Election Committee, which shall serve to verify the results of all Senate and Presidential elections. In cases where the Secretary seeks election to the position of President, Vice-President of Operations, or Senator, or is promised an appointed Cabinet position, the Senate shall elect another Official of the SGA to chair the Election Committee in their place using secret ballot and a plurality voting system.
+
+\chapter{Oversight}
+
+\section{Oversight Committee}
+There shall be an Oversight Committee responsible for the oversight of all Officials of the SGA. The Oversight Committee shall consist of the Speaker, who shall act as the chair, and one Senator from each Class, elected by the Senate using secret ballot and a plurality voting system.
+
+The power to bring Officials of the SGA up for impeachment shall solely be that of the
+Oversight Committee. A simple majority vote of the committee shall be required to impeach any Official of the SGA. The Speaker shall have no vote, unless the committee is equally divided. An Official of the SGA may only be impeached for breaching any of the governing documents of the SGA.
+
+\section{Parliamentarian}
+Constitutional oversight of SGA proceedings shall be the responsibility of a Parliamentarian of the SGA. The Parliamentarian shall have the right to review the constitutionality of all motions brought before the Senate prior to their discussion. The Parliamentarian shall not have the power to mandate that a motion to be rescinded.
+
+The Parliamentarian shall act as chair of the Oversight Committee, only in cases where
+the Speaker is to be brought for impeachment.
+
+\chapter{Recognized Student Organizations}
+
+\section{Definition}
+A Recognized Student Organization is any organization with non-exclusive membership granted that status by the Senate or any previously existing system of student governance.
+
+\section{Policies}
+Every Recognized Student Organization must have an executive board, or another similarly
+named board, composed of officers elected by the organization for a term of no more than one year or until their successors are elected. Recognized Student Organizations may also choose to have officers who are not members of an executive board. Officers of a Recognized Student Organization shall not be considered Officials of the SGA.
+
+No Recognized Student Organization may preclude any member of the Student Body from being eligible for membership. No Recognized Student Organization may preclude any member of the Student Body from participating in its events or activities, except by means of audition or fair contest for a role. No Recognized Student Organization may require a student to participate in its activities or otherwise remain affiliated with the organization.
+
+Recognized Student Organizations must cooperate in investigations of their activity
+brought forth by the SGA.
+
+\chapter{Bylaws}
+The Bylaws of the Student Government Association shall dictate the procedures for and the regulation of affairs of the SGA and shall be valid for all intents and purposes of this constitution.
+
+No bylaw shall supersede or be inconsistent with this constitution. No procedure or legislation shall supersede any existing bylaws, excluding temporary suspension of bylaws and new bylaws. A new bylaw shall be introduced in the form of a bill.
+
+\chapter{Amendment of this Constitution}
+The SGA shall open a secret ballot referendum for the ratification of any proposed amendment of this constitution within one week of receipt by an Official of the SGA a petition bearing the signatures of ten percent of the students of each Class or initiative of the SGA itself. These referendums shall remain open for a period of thirty-one (31) days.
+
+Amendment of this constitution shall become effective by way of a two-thirds affirmative
+vote of the undergraduate students voting, with a voting quorum of one-third of the Student Body.
+
+\chapter{Adoption}
+This constitution shall become effective upon ratification by the Student Body by way of a secret ballot referendum as specified in Article VII, the first day of classes of the Spring 2018 semester, and approval by the Office of Student Life.
+
+The establishment of this constitution shall abolish any previously existing constitution for the governance of the Student Body. The Student Body shall be hereby bound by this constitution and all rules and regulations brought into effect by its powers.
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
